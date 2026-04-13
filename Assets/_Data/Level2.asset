@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee02bbdf16446504fb9f04a0f3f96ff6, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  waitingAreaCapacity: 32
+  garages:
+  - garageId: 
+    spawnPointIndex: 0
+    buses:
+    - color: 2
+      capacity: 20
+    - color: 3
+      capacity: 20
+  - garageId: 
+    spawnPointIndex: 1
+    buses:
+    - color: 3
+      capacity: 20
+    - color: 4
+      capacity: 20
+  lanes:
+  - laneId: 
+    spawnPointIndex: 0
+    groups:
+    - color: 3
+      count: 8
+    - color: 2
+      count: 8
+    - color: 4
+      count: 12
+    - color: 3
+      count: 8
+  - laneId: 
+    spawnPointIndex: 2
+    groups:
+    - color: 3
+      count: 12
+    - color: 2
+      count: 12
+    - color: 4
+      count: 8
+    - color: 3
+      count: 12
+  busPathPrefab: {fileID: 654837736943276141, guid: 96cdd703d27c1d046ab6377946f583ab, type: 3}
+  layoutPrefab: {fileID: 7529225883565459908, guid: 75069fb3bb34ec34aa0567c3bb5bcfc1, type: 3}
